@@ -13,14 +13,14 @@ public class EmployeeManagement {
 
         if(attendance==1){
             dailyWage = empWagePerHr*fullDayHr;
-            System.out.println("Employee is present full time");
+            System.out.println("Employee is present full time.");
             System.out.println("Daily wage = "+ dailyWage);
         } else if (attendance==2) {
             dailyWage = empWagePerHr*partTimeHour;
-            System.out.println("Employee is present part time");
+            System.out.println("Employee is present part time.");
             System.out.println("Daily wage = "+ dailyWage);
         } else{
-            System.out.println("Employee is absent");
+            System.out.println("Employee is absent.");
         }
 /*
 * UC3
